@@ -1,0 +1,46 @@
+.dlsite-preview-tooltip {
+  position: fixed;
+  z-index: 2147483647;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  padding: 8px;
+  max-width: 320px;
+  display: none;
+  pointer-events: auto;
+}
+
+.dlsite-preview-link {
+  display: block;
+  text-decoration: none;
+}
+
+.dlsite-preview-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  display: block;
+  cursor: pointer;
+  transition: opacity 0.15s ease;
+}
+
+.dlsite-preview-image:hover {
+  opacity: 0.85;
+}
+
+.dlsite-preview-loading {
+  padding: 40px 60px;
+  text-align: center;
+  color: #666;
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.dlsite-preview-error {
+  padding: 20px 40px;
+  text-align: center;
+  color: #d32f2f;
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
