@@ -8,7 +8,7 @@ function getProductUrl(code) {
 
   let site = 'home';
   if (prefix === 'BJ') {
-    site = 'bl-home';
+    site = 'books';
   } else if (prefix === 'VJ') {
     site = 'pro';
   }

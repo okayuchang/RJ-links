@@ -9,7 +9,7 @@ function getProductUrl(code) {
   // プレフィックスに応じたサイトを選択
   let site = 'home';
   if (prefix === 'BJ') {
-    site = 'bl-home';
+    site = 'books';
   } else if (prefix === 'VJ') {
     site = 'pro';
   }
